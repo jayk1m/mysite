@@ -1,0 +1,82 @@
+<html>
+<head>
+	<link rel="icon" href="jk2.ico">
+	<title> Jay Kim </title>
+	
+	<link rel="stylesheet" href="ostrich/ostrich-sans-master/webfonts/ostrich-sans.css" type="text/css" charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
+	<style>
+		body {
+			background-color: #ead0ae;
+		}
+
+		video {
+			position: fixed;
+			top: 0;
+			left: 0;
+			z-index: -100;
+			width: 100%;
+			height: auto;
+			opacity: 0.8;
+		}
+
+		#hello {
+			margin-top: 150;
+			margin-left: 130;
+			margin-right: 700;
+			padding: 15;
+			background-color: white;
+			border: 15px solid gray;
+			opacity: 0.6;
+			text-align: center;
+		}
+
+		h1 {
+			font-family: 'Ostrich Sans', sans-serif;
+			font-size: 60;
+		}
+
+		h2 {
+			font-family: 'Jura', sans-serif;
+			font-size: 35;
+		}
+
+		a:link {
+			color: #40367c;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: #40367c;
+			text-decoration: none;
+		}
+
+		a:hover { 
+			color: #568f56;
+		}
+		
+		a:active {
+			color: indianred;
+			letter-spacing: 2px;
+		}
+	</style>
+</head>
+<body>
+	<video id="myVideo" autoplay muted loop>
+		<source src="DFHL3365.webmhd.webm" type="video/webm" />
+		<source src="DFHL3365.mp4.mp4" type="video/mp4" />
+		No Support.
+	</video>
+
+	<div id="hello">
+		<a href="main.html">
+			<h1> -- Hello, World! -- </h1>
+			<h2> "This is Jay Kim." </h2>
+		</a>
+	</div>
+
+	<script>
+		document.getElementById("myVideo").playbackRate = 0.4;
+	</script>
+</body>
+</html>
